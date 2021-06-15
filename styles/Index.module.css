@@ -1,0 +1,17 @@
+.container {
+  margin: 2rem;
+  padding: 0 20rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container div {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.container i {
+  margin-bottom: 2rem;
+}
